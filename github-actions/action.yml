@@ -1,0 +1,14 @@
+name: 'Count'
+author: 'neilpeterson'
+description: 'Create and Assign Azure Blueprints'
+branding:
+  icon: 'book-open'
+  color: 'blue'
+inputs:
+  directory:
+    description: 'Directory to count. Defaults to the root of the target repository.'
+    default: "."
+    required: false
+runs:
+  using: docker
+  image: neilpeterson/count:0.1

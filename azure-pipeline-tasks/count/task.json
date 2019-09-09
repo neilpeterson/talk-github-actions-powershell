@@ -1,0 +1,36 @@
+{
+	"id": "46ff7044-9edd-43b0-9bba-5868c2bd1cb2",
+	"name": "count",
+	"friendlyName": "Count",
+	"description": "Count",
+	"helpMarkDown": "",
+	"category": "Build",
+	"visibility": [
+		"Preview",
+		"Build",
+		"Release"
+	],
+	"author": "Neil Peterson",
+	"version": {
+		"Major": 1,
+		"Minor": 0,
+		"Patch": 0
+	},
+	"instanceNameFormat": "Count",
+	"inputs": [{
+		"name": "Directory",
+		"type": "string",
+		"label": "Directory to count. Defaults to the root of the target repository.",
+		"defaultValue": ".",
+		"required": true,
+		"helpMarkDown": "Directory to count. Defaults to the root of the target repository."
+	}],
+	"dataSourceBindings": [],
+	"execution": {
+		"PowerShell3": {
+			"target": "$(currentDirectory)\\count.ps1",
+			"argumentFormat": "",
+			"workingDirectory": "$(currentDirectory)"
+		}
+	}
+}
