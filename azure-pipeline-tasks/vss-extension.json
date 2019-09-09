@@ -1,7 +1,7 @@
 {
 	"manifestVersion": 1,
 	"id": "pipeline-utilities",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"name": "Pipeline Utilities",
 	"description": "A PowerShell demo Azure Pipeline extension.",
 	"publisher": "nepeters",
