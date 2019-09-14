@@ -11,4 +11,4 @@ inputs:
     required: false
 runs:
   using: docker
-  # image: neilpeterson/count:0.1
+  image: neilpeterson/count:0.1
