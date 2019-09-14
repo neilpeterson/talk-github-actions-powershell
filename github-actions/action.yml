@@ -1,6 +1,6 @@
 name: 'Count'
 author: 'neilpeterson'
-description: 'Create and Assign Azure Blueprints'
+description: 'Returns a count of files and folders in a directory'
 branding:
   icon: 'book-open'
   color: 'blue'
@@ -11,4 +11,4 @@ inputs:
     required: false
 runs:
   using: docker
-  image: neilpeterson/count:0.1
+  # image: neilpeterson/count:0.1
