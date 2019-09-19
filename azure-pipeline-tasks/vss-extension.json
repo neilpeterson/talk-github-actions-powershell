@@ -1,8 +1,8 @@
 {
 	"manifestVersion": 1,
-	"id": "pipeline-utilities",
-	"version": "1.0.3",
-	"name": "Pipeline Utilities",
+	"id": "pipeline-utilities-private",
+	"version": "1.0.0",
+	"name": "Pipeline Utilities Private",
 	"description": "A PowerShell demo Azure Pipeline extension.",
 	"publisher": "nepeters",
 	"categories": [
@@ -13,7 +13,7 @@
             "path": "docs/overview.md"
         }
     },
-	"public": true,
+	"public": false,
 	"galleryFlags": [
         "Preview"
     ],
