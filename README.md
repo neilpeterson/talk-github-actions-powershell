@@ -3,7 +3,7 @@
 ## Setup
 
 - Revert Blueprints pipeline to just the create task
-- Remove pipeline utilities extension
+- Remove pipeline utility extension
 
 ## Demo 1: Azure Pipelines
 
@@ -25,8 +25,9 @@ tfx extension create --manifest-globs vss-extension.json
 
 ## Demo 2: GitHub Actions
 
-- Step through a workflow / make connection with pipeline
-- Demo the Azure BLueprints extension in an Action
-- Demo the action directory and file structure
-- Demo creating a GitHub workflow
-- Demo action execution
+- Step through a workflow / make a connection with pipelines (Blueprints example)
+- Look at logs for a run of the Blueprints workflow
+- Show the Azure Blueprints actions (GitHub)
+- Look at the action directory and file structure
+- Look at the sample workflow
+- Demo action execution (commit to this repo)
